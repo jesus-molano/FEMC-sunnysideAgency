@@ -1,0 +1,40 @@
+
+/*FOOTER*/
+footer{
+  padding: 3rem 0;
+  min-height: 40vh;
+  max-height: 40rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(164,48%,74%);
+}
+
+.logo-footer{
+  width: 15rem;
+}
+
+.nav-footer{
+  max-width: 20rem;
+  width: 100%;
+}
+.nav-footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:var(--primary-clr-desaturated-cyan);
+  list-style: none;
+}
+.nav-footer a{
+  color: var(--primary-clr-desaturated-cyan);
+  text-decoration: none;
+}
+
+.social-media{
+  margin-top: 8rem;
+  display: flex;
+  width: 15rem;
+  justify-content: space-around;
+}
+
